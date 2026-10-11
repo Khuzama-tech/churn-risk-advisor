@@ -1,1 +1,67 @@
-# churn-risk-advisor
+# Churn Risk Advisor v1.0
+
+A web application designed to help telecom customer retention teams identify and prioritize customers at high risk of churning.
+
+---
+
+## Model card: Churn Risk Advisor v1.0
+
+**Intended use:** rank existing telecom customers by churn risk so a retention team can prioritize calls. Decision support, not automation.
+**Not for:** credit, pricing, or any decision that denies a service.
+**Data:** IBM Telco Customer Churn, 7,043 customers, 26.5% churn.
+**Model:** [e.g., Logistic Regression / Random Forest / XGBoost], chosen by 5-fold CV. Features: 30 encoded columns.
+**Performance:** CV AUC [e.g., 0.84 +/- 0.02]; test AUC [e.g., 0.85] (test set used once).
+**Threshold:** [e.g., 0.35], from a cost analysis (FN = PKR 6,000, FP = PKR 1,000).
+**Limitations:** one US dataset from one period; no Pakistan data; associations, not causes; performance may drift as plans change.
+**Fairness check (Week 15):** compare recall across gender and seniors.
+**Owner and version:** Khuzaima Ahmed, v1.0, October 2026.
+
+---
+
+## Live Demo
+🔗 **Live Application URL:** [Insert your deployed App Link here](https://churn-risk-advisor-a2jrzbowteeqq3bbidptgt.streamlit.app/]
+
+---
+
+## Screenshots
+
+### Application Interface
+![App Interface](path/to/screenshot1.png)
+
+### Model Analysis / Predictions
+![Model Analysis](path/to/screenshot2.png)
+
+---
+
+## Project Notebooks (Weeks 1 - 3)
+
+* **[Week 1: Exploratory Data Analysis & Data Cleaning](link-to-week-1-notebook)**  
+  * Exploratory data analysis, handling missing values, and initial data visualizations.
+* **[Week 2: Feature Engineering & Preprocessing](link-to-week-2-notebook)**  
+  * Encoding categorical features, feature scaling, and data pipeline setup.
+* **[Week 3: Model Training, Evaluation & Hyperparameter Tuning](link-to-week-3-notebook)**  
+  * Training baseline models, cross-validation, performance evaluation (AUC, ROC), and threshold optimization.
+
+---
+
+## Deployment
+
+To deploy this application live (using Streamlit Community Cloud):
+
+1. Ensure your repository is pushed to GitHub with all required files (`app.py`, `churn_model.joblib`, `model_meta.json`, `requirements.txt`).
+2. Go to [share.streamlit.io](https://share.streamlit.io/) and sign in with your GitHub account.
+3. Click on **New app**.
+4. Fill in your repository settings:
+   * **Repository:** `Khuzama-tech/churn-risk-advisor`
+   * **Branch:** `main`
+   * **Main file path:** `app.py`
+5. Click **Deploy!** Streamlit will automatically install the libraries from your `requirements.txt` and launch your app.
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Khuzama-tech/churn-risk-advisor.git](https://github.com/Khuzama-tech/churn-risk-advisor.git)
+   cd churn-risk-advisor
