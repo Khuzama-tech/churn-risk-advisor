@@ -26,10 +26,11 @@ A web application designed to help telecom customer retention teams identify and
 ## Screenshots
 
 ### Application Interface
-![Uploading image.png…]()
+<img width="956" height="490" alt="image" src="https://github.com/user-attachments/assets/a6f1442e-6aa4-4808-aec3-8321e9f81f3f" />
 
 ### Model Analysis / Predictions
-![Model Analysis](path/to/screenshot2.png)
+![Model Analysis](![Uploading image.png…]()
+)
 
 ---
 
