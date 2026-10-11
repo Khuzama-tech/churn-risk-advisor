@@ -9,12 +9,13 @@ A web application designed to help telecom customer retention teams identify and
 * **Intended use:** rank existing telecom customers by churn risk so a retention team can prioritize calls. Decision support, not automation.
 * **Not for:** credit, pricing, or any decision that denies a service.
 * **Data:** IBM Telco Customer Churn, 7,043 customers, 26.5% churn.
-* **Model:** [e.g., Logistic Regression / Random Forest / XGBoost], chosen by 5-fold CV. Features: 30 encoded columns.
-* **Performance:** CV AUC [e.g., 0.84 +/- 0.02]; test AUC [e.g., 0.85] (test set used once).
-* **Threshold:** [e.g., 0.35], from a cost analysis (FN = PKR 6,000, FP = PKR 1,000).
+* **Model:** XGBoost Classifier, chosen by 5-fold CV. Features: 30 encoded columns.
+* **Performance:** CV AUC 0.8502 +/- 0.0117; test AUC 0.8483 (test set used once).
+* **Threshold:** 0.35, from a cost analysis (FN = PKR 6,000, FP = PKR 1,000).
 * **Limitations:** one US dataset from one period; no Pakistan data; associations, not causes; performance may drift as plans change.
 * **Fairness check (Week 15):** compare recall across gender and seniors.
 * **Owner and version:** Khuzaima Ahmed, v1.0, October 2026.
+  
 ---
 
 ## Live Demo
