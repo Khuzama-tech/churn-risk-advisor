@@ -19,7 +19,7 @@ A web application designed to help telecom customer retention teams identify and
 ---
 
 ## Live Demo
-🔗 **Live Application URL:** [Insert your deployed App Link here](https://churn-risk-advisor-a2jrzbowteeqq3bbidptgt.streamlit.app/]
+🔗 **Live Application URL:** https://churn-risk-advisor-a2jrzbowteeqq3bbidptgt.streamlit.app/
 
 ---
 
