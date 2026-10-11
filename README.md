@@ -26,7 +26,7 @@ A web application designed to help telecom customer retention teams identify and
 ## Screenshots
 
 ### Application Interface
-![App Interface](path/to/screenshot1.png)
+![Uploading image.png…]()
 
 ### Model Analysis / Predictions
 ![Model Analysis](path/to/screenshot2.png)
