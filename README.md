@@ -25,18 +25,18 @@ A web application designed to help telecom customer retention teams identify and
 
 ## Screenshots
 
-### Application Interface
+### One Customer
 <img width="956" height="490" alt="image" src="https://github.com/user-attachments/assets/a6f1442e-6aa4-4808-aec3-8321e9f81f3f" />
 
-### Model Analysis / Predictions
-![Model Analysis](![Uploading image.png…]()
-)
+### Batch Scoring
+<img width="957" height="488" alt="image" src="https://github.com/user-attachments/assets/55bbb933-55d7-4f62-8105-def34d6e1bc1" />
+
 
 ---
 
 ## Project Notebooks (Weeks 1 - 3)
 
-* **[Week 1: Exploratory Data Analysis & Data Cleaning](link-to-week-1-notebook)**  
+* **[Week 1: Exploratory Data Analysis & Data Cleaning](https://www.kaggle.com/code/khuzamasiddique/week-1/edit)**  
   * Exploratory data analysis, handling missing values, and initial data visualizations.
 * **[Week 2: Feature Engineering & Preprocessing](link-to-week-2-notebook)**  
   * Encoding categorical features, feature scaling, and data pipeline setup.
