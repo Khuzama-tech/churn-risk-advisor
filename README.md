@@ -38,9 +38,9 @@ A web application designed to help telecom customer retention teams identify and
 
 * **[Week 1: Exploratory Data Analysis & Data Cleaning](https://www.kaggle.com/code/khuzamasiddique/week-1/edit)**  
   * Exploratory data analysis, handling missing values, and initial data visualizations.
-* **[Week 2: Feature Engineering & Preprocessing](link-to-week-2-notebook)**  
+* **[Week 2: Building ML Models](https://www.kaggle.com/code/khuzamasiddique/week-2-building-ml-models/edit)**  
   * Encoding categorical features, feature scaling, and data pipeline setup.
-* **[Week 3: Model Training, Evaluation & Hyperparameter Tuning](link-to-week-3-notebook)**  
+* **[Week 3: Model Training, Evaluation & Hyperparameter Tuning](https://www.kaggle.com/code/khuzamasiddique/week-3-model-optimization/edit)**  
   * Training baseline models, cross-validation, performance evaluation (AUC, ROC), and threshold optimization.
 
 ---
